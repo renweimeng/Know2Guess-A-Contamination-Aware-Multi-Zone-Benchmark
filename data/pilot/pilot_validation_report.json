@@ -1,0 +1,26 @@
+{
+  "num_dev": 120,
+  "num_test": 120,
+  "num_total": 240,
+  "zone_counts": {
+    "D": 48,
+    "C": 48,
+    "A": 72,
+    "B": 72
+  },
+  "avg_S_popularity_by_zone": {
+    "A": 0.9994902619207521,
+    "B": 0.39266715006578873,
+    "C": 0.5870361913290053,
+    "D": 0.0
+  },
+  "abstention_expected_count": 48,
+  "abstention_expected_by_zone": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 48
+  },
+  "missing_fields_examples": [],
+  "schema_ok": true
+}

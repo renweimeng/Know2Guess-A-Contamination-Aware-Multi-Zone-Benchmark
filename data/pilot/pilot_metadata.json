@@ -1,0 +1,39 @@
+{
+  "pilot_size": 240,
+  "num_dev": 120,
+  "num_test": 120,
+  "domains": [
+    "medicine_medmcqa",
+    "multi_hop_hotpotqa",
+    "science_sciq"
+  ],
+  "zone_counts": {
+    "D": 48,
+    "C": 48,
+    "A": 72,
+    "B": 72
+  },
+  "contamination_risk_counts": {
+    "low": 77,
+    "medium": 17,
+    "high": 146
+  },
+  "item_origin_counts": {
+    "synthetic_unknown": 48,
+    "real_public": 192
+  },
+  "rubric_used": {
+    "popularity_quantiles": {
+      "A_top": 0.4,
+      "B_bottom": 0.4
+    },
+    "boundary_threshold": {
+      "S_boundary_min": 0.6
+    },
+    "unknown_conditions": {
+      "synthetic_or_private": true
+    }
+  },
+  "random_seed": 1337,
+  "construction_notes": "Pilot dataset built from public QA sources with deterministic rewriting, provenance metadata, and synthetic unknowns for zone D."
+}

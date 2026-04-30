@@ -1,0 +1,25 @@
+{
+  "fields": [
+    "question_id",
+    "split",
+    "zone",
+    "domain",
+    "question_type",
+    "question_text",
+    "gold_answer",
+    "acceptable_variants",
+    "grading_rule",
+    "evidence_sources",
+    "publication_or_reference_date",
+    "provenance_signals",
+    "component_scores",
+    "contamination_risk",
+    "contamination_rationale",
+    "abstention_expected",
+    "synthetic_or_private_flag",
+    "item_origin",
+    "template_id",
+    "review_status",
+    "notes"
+  ]
+}
